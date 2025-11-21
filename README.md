@@ -1,6 +1,8 @@
 # mpmc-skill-assignment-1
-AIM
+##AIM
 Write an assembly language program in 8051 to calculate the sum of 5 numbers stored sequentially in memory and store the result in a another memory location.
+
+```
 APPARATUS REQUIRED
 Personal computer with Keil software
 
@@ -18,6 +20,7 @@ Store final sum from A into a chosen internal RAM location (e.g., 35H).
 End / infinite loop or RET.
 
 PROGRAME
+```
 ORG 0000H
 
 MOV R0, #30H      ; Pointer to first number
@@ -34,6 +37,7 @@ SUM_LOOP:
 MOV 35H, A        ; Store result
 
 END
+```
 
 OUTPUT
 <img width="1600" height="680" alt="image" src="https://github.com/user-attachments/assets/3e148558-d80f-428f-98a2-c670df798191" />
